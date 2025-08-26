@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "arxiv-search": {
+      "command": "python",
+      "args": ["-m", "src.server", "--stdio"],
+      "env": {
+        "PYTHONPATH": "${PWD}"
+      }
+    }
+  }
+}

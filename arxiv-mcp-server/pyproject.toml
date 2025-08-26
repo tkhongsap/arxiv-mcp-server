@@ -1,0 +1,22 @@
+[project]
+name = "arxiv-mcp-server"
+version = "0.1.0"
+description = "MCP server for searching and downloading arXiv papers"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "mcp>=1.2.0",
+    "arxiv>=2.1.0",
+    "openai>=1.0",
+    "pydantic>=2.0",
+    "python-dotenv",
+    "aiofiles",
+    "httpx",
+]
+
+[project.scripts]
+arxiv-mcp = "src.server:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
