@@ -10,6 +10,8 @@ An MCP (Model Context Protocol) server that enables Claude Code to search and do
 - **Batch Operations**: Download multiple papers at once
 - **Category Support**: Search within specific arXiv categories (math, cs, physics, etc.)
 - **Date Filtering**: Find papers published within specific date ranges
+- **Rate Limiting**: Built-in compliance with arXiv API rate limits
+- **Download Statistics**: Track and retrieve download history
 
 ## Installation
 
